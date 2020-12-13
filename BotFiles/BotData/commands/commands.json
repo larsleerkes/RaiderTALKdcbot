@@ -1,0 +1,52 @@
+{
+  "command": [
+    {
+      "name": "Sollicitatie",
+      "actions": [
+        {
+          "name": "SollicitatieResponse",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "$$CommandChannel$$",
+          "color": "00FF1A",
+          "title": "Sollicitatie  Nederlands",
+          "url": "",
+          "authorname": "RaiderTalk Offcial©",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "1. Hoe heet je?\n2. Wat is uw leeftijd?\n3. Wat zijn uw voordelen?\n4. Wat zijn uw nadelen?\n5. Hoeveel uur per dag kunt u online zijn?\n6. Wanneer demp / demp je iemand tijdelijk?\n7. Wanneer schop je iemand?\n8. Wanneer verbant / verbant u iemand tijdelijk?\n9. Hoe ga je om met anderen?\n10. Waarom zou het leuk zijn om personeel te worden?\n\nRaiderTALK Official©",
+          "thumbnail": "",
+          "image": "",
+          "footer": "Anngevraagd om",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    },
+    {
+      "name": "SollicitatieEN",
+      "actions": [
+        {
+          "name": "SollicitatieResponseEN",
+          "category": "Message",
+          "type": "Send Embed",
+          "channelname": "$$CommandChannel$$",
+          "color": "29FF29",
+          "title": "Application Staff",
+          "url": "",
+          "authorname": "",
+          "authorimageurl": "",
+          "authorlink": "",
+          "description": "1. What is your name?\n2. What is your age?\n3. What are your advantages?\n4. What are your downsides?\n5. How many hours per day can you be online?\n6. When do you mute / temporarily mute someone?\n7. When do you kick someone?\n8. When do you ban / temporarily ban someone?\n9. How do you deal with others?\n10. Why do you think it would be nice to become staff?\n\nRaiderTALK Official©",
+          "thumbnail": "",
+          "image": "",
+          "footer": "",
+          "timestamp": "BOOL_TRUE@@",
+          "savetovariable": "",
+          "savetovariabletype": "temp"
+        }
+      ]
+    }
+  ]
+}

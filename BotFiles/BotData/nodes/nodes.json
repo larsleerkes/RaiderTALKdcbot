@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "type": "command",
+      "name": "Sollicitatie",
+      "guid": "edd80570-d2c9-43fe-ac47-e8756e82a8d0",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "112a3093-f4de-4200-ab14-649d2993a06c"
+          ]
+        }
+      ],
+      "x": 30,
+      "y": 61
+    },
+    {
+      "type": "response",
+      "name": "SollicitatieResponse",
+      "guid": "112a3093-f4de-4200-ab14-649d2993a06c",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "edd80570-d2c9-43fe-ac47-e8756e82a8d0"
+        }
+      ],
+      "x": 197,
+      "y": 47,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "$$CommandChannel$$",
+        "00FF1A",
+        "Sollicitatie  Nederlands",
+        "",
+        "RaiderTalk Offcial©",
+        "",
+        "",
+        "1. Hoe heet je?\n2. Wat is uw leeftijd?\n3. Wat zijn uw voordelen?\n4. Wat zijn uw nadelen?\n5. Hoeveel uur per dag kunt u online zijn?\n6. Wanneer demp / demp je iemand tijdelijk?\n7. Wanneer schop je iemand?\n8. Wanneer verbant / verbant u iemand tijdelijk?\n9. Hoe ga je om met anderen?\n10. Waarom zou het leuk zijn om personeel te worden?\n\nRaiderTALK Official©",
+        "",
+        "",
+        "Anngevraagd om",
+        "BOOL_TRUE@@",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    },
+    {
+      "type": "command",
+      "name": "SollicitatieEN",
+      "guid": "60d6b866-6389-4b21-9f98-e0dd79b7f379",
+      "outputs": [
+        {
+          "label": "responses",
+          "connections": [
+            "b64dbcc3-04af-4f9d-ba9c-e3eb899b1e3c"
+          ]
+        }
+      ],
+      "x": 8,
+      "y": 172
+    },
+    {
+      "type": "response",
+      "name": "SollicitatieResponseEN",
+      "guid": "b64dbcc3-04af-4f9d-ba9c-e3eb899b1e3c",
+      "reactionFields": [],
+      "embedfields": [],
+      "outputs": [
+        {
+          "label": "next response",
+          "connections": []
+        }
+      ],
+      "inputs": [
+        {
+          "label": "trigger",
+          "id": "60d6b866-6389-4b21-9f98-e0dd79b7f379"
+        }
+      ],
+      "x": 194,
+      "y": 179,
+      "rtype": "Message",
+      "rsubtype": "Send Embed",
+      "formdata": [
+        "$$CommandChannel$$",
+        "29FF29",
+        "Application Staff",
+        "",
+        "",
+        "",
+        "",
+        "1. What is your name?\n2. What is your age?\n3. What are your advantages?\n4. What are your downsides?\n5. How many hours per day can you be online?\n6. When do you mute / temporarily mute someone?\n7. When do you kick someone?\n8. When do you ban / temporarily ban someone?\n9. How do you deal with others?\n10. Why do you think it would be nice to become staff?\n\nRaiderTALK Official©",
+        "",
+        "",
+        "",
+        "BOOL_TRUE@@",
+        "",
+        "temp"
+      ],
+      "formnames": [
+        "channelname",
+        "color",
+        "title",
+        "url",
+        "authorname",
+        "authorimageurl",
+        "authorlink",
+        "description",
+        "thumbnail",
+        "image",
+        "footer",
+        "timestamp",
+        "saveToVariable",
+        "saveToVariableType"
+      ]
+    }
+  ]
+}
